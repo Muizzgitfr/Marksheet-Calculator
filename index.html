@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Marksheet Calculator</h2>
+    <strong><label for="totalMarks">Total Marks:</label></strong>
+    <input  type="number" id="totalMarks" placeholder="Enter total marks">
+
+    <strong><label for="obtainedMarks">Marks Obtained:</label></strong>
+    <input  type="number" id="obtainedMarks" placeholder="Enter marks obtained">
+
+    <button onclick="calculateMarksheet()"><strong>Calculate</strong></button>
+
+    <div class="result" id="result"></div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
